@@ -1,0 +1,183 @@
+body {
+  background: grey;
+  height: 100vh;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.homepage {
+  display: flex;
+}
+
+.navbar {
+  background: grey;
+  color: black;
+  width: 100%;
+}
+
+.title {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.images {
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  background: lightgrey;
+}
+
+.homepage {
+  background: darkgrey;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  height: 90vh;
+}
+
+.gallery {
+  background: darkgrey;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  height: 90vh;
+}
+
+.resumebox{
+background:darkgrey;
+display: flex;
+justify-content: center;
+padding-bottom:20%;
+
+}
+.resume {
+  background: darkgrey;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  margin:20px;
+  height: 60%;
+  width:50%;
+}
+
+.FunFacts {
+  background: darkgrey;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  height: 90vh;
+}
+
+.content {
+  justify-content: flex-end;
+}
+
+figure {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 1000px));
+  gap: 10px;
+  width: 100%;
+  /*this is the size of your container width */
+  margin: auto;
+  background: darkgrey;
+  justify-content: center;
+}
+
+.Rabideer{
+  grid-template-columns: repeat(1, minmax(100px, 600px));
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  background-color: rgba(155, 155, 155, 0.4);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transform: scale(0);
+  transition: .25s transform ease-in-out;
+}
+
+.box {
+  text-align: center;
+}
+
+.Portrait {
+  width: 500px;
+  height: 700px;
+}
+
+.Portrait2 {
+  max-width: 100%;
+  height: auto;
+}
+
+.About_Me {
+  width: 600px;
+  font-size: 1.5em;
+}
+
+.FunFacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.me {
+  margin: 20px;
+}
+
+.Fun {
+  font-size: 1.3em;
+  width: 1200px;
+  margin: 20px;
+}
+
+.resume {
+  background: white;
+  padding: 10px;
+  border: solid black 2px;
+}
+
+.container:hover .overlay {
+  transform: scale(1);
+}
+
+.works{
+  background: darkgrey;
